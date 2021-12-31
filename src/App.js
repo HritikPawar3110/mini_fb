@@ -4,6 +4,7 @@ function App(){
 
   return(
     <main>
+      <h1>Welcome to the React!</h1>
      <h1>{plus}</h1>
 
       <button onClick={()=>setCount(plus-1)}>click me</button>
